@@ -23,5 +23,5 @@ steps:
   - run
   - --filename=K8s_configs/
   - --image=gcr.io/$PROJECT_ID/myapp:v1
-  - --location=us-west1-b
+  - --location=us-central1
   - --cluster=mykube
